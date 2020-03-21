@@ -1,9 +1,0 @@
-dependencies:
-  - python
-  - numpy
-  - pip
-  - pip:
-    - pandas
-    - plotly
-    - lxml
-    - matplotlib
