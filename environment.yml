@@ -1,8 +1,6 @@
 name: stats
 dependencies:
-  - pip
-  - pip:
-    - numpy
-    - pandas
-    - plotly
-    - lxml
+  - numpy
+  - pandas
+  - plotly
+  - lxml
