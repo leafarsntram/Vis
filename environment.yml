@@ -1,7 +1,8 @@
-name: Vis
+name: stats
 dependencies:
-- numpy
-- pip:
-  - pandas
-  - plotly
-  - prometheus_client
+  - pip
+  - pip:
+    - numpy
+    - pandas
+    - plotly
+    - lxml
