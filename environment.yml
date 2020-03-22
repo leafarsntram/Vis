@@ -1,4 +1,4 @@
-name: jupyter_server_docs
+name: Vis
 dependencies:
 - numpy
 - pip:
