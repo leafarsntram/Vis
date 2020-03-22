@@ -1,8 +1,7 @@
+name: jupyter_server_docs
 dependencies:
-  - matplotlib
-  - numpy
-  - pip
-  - pip:
-      - pandas
-      - plotly
-      - lxml
+- numpy
+- pip:
+  - pandas
+  - plotly
+  - prometheus_client
