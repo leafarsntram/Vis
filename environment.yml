@@ -1,7 +1,7 @@
 name: stats
 dependencies:
-  - numpy=1.9.*
-  - nodejs=0.10.*
   - pip:
     - pandas
     - plotly
+    - numpy=1.9.*
+    - nodejs=0.10.*
