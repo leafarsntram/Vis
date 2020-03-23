@@ -1,7 +1,41 @@
-name: stats
-dependencies:
+name: temp
+channels:
+  - conda-forge
+  - defaults
+dependencies :
+  - python=3.7
+  - pandas
+  - scipy
+  - numpy
+  - jupyter
+  - pytables
+  - matplotlib
+  - seaborn
+  - pytest
+  - pyqtgraph
+  - networkx<2.0
+  - nb_conda
+  - geopandas
+  - rasterio
+  - fiona=1.7.11
   - pip:
-    - pandas
+    - pyopengl
+    - pytess
+    - geojson
+    - lxml
+    - pytest-cov
+    - tabulate
+    - pyephem
+    - multiprocess
+    - pvlib
+    - sphinx
+    - nbsphinx
+    - sphinx-autoapi
+    - sphinxcontrib-fulltoc
+    - sphinx_rtd_theme
+    - geojson
+    - pyproj
+    - tqdm
+    - xlwt
     - plotly=4.5.*
-    - numpy=1.9.*
     - nodejs=0.10.*
