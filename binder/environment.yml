@@ -1,9 +1,13 @@
-name: examp
+name: example-environment
+channels:
   - conda-forge
 dependencies:
-  -pip:
-    - numpy
-    - matplotlib
-    - pandas
-    - lxml
-    - plotly
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - plotly
+  - lxml
