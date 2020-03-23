@@ -1,0 +1,10 @@
+  
+name: examp
+  - conda-forge
+dependencies:
+  -pip:
+    - numpy
+    - matplotlib
+    - pandas
+    - lxml
+    - plotly
