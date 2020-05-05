@@ -9,5 +9,6 @@ dependencies:
   - folium
   - requests
   - scrapy
-  - goplot
+  - geoplot
   - geopandas
+  - Gym
