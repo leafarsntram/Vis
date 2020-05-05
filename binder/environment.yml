@@ -9,3 +9,5 @@ dependencies:
   - folium
   - requests
   - scrapy
+  - goplot
+  - geopandas
