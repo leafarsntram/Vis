@@ -1,6 +1,6 @@
 name: example-environment
 channels:
-  - pip
+  - conda
 dependencies:
   - numpy
   - pandas
@@ -12,4 +12,3 @@ dependencies:
   - geoplot
   - geopandas
   - Gym
-  - chart_studio
