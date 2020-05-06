@@ -12,3 +12,4 @@ dependencies:
   - geoplot
   - geopandas
   - Gym
+  - chart_studio
