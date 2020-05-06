@@ -1,6 +1,8 @@
 name: example-environment
 channels:
-  - conda
+  - conda-forge
+  - bioconda
+  - defaults
 dependencies:
   - numpy
   - pandas
@@ -12,3 +14,5 @@ dependencies:
   - geoplot
   - geopandas
   - Gym
+  - pip:
+    - chart_studio
