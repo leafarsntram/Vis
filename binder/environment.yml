@@ -12,6 +12,3 @@ dependencies:
   - geoplot
   - geopandas
   - Gym
-  - pip
-  - pip:
-    - chart_studio
