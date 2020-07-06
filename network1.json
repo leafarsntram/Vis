@@ -1,7 +1,7 @@
 {"nodes":[{"name":"Investimento","n":1,"grp":1,"id":"Investimento"},
 {"name":"Renda Fixa","n":5,"grp":1,"id":"Renda Fixa"},
 {"name":"Renda Variável","n":5,"grp":1,"id":"Renda Variável"},
-{"name":"Derivativo","n":32,"grp":1,"id":"Derivativo"},
+{"name":"Derivativo","n":4,"grp":1,"id":"Derivativo"},
 {"name":"Fundo","n":4,"grp":1,"id":"Fundo"}
 ],
 "links":[
