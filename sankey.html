@@ -1,0 +1,157 @@
+<html>
+<body>
+<h1>Investimentos Mercado Brasileiro</h1>
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<div id="sankey_multiple" style="width: 1000px; height: 600px;"></div>
+
+<script type="text/javascript">
+  google.charts.load("current", {packages:["sankey"]});
+  google.charts.setOnLoadCallback(drawChart);
+   function drawChart() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'From');
+    data.addColumn('string', 'To');
+    data.addColumn('number', 'Weight');
+    data.addRows([
+	   ['Investimento', 'Renda Fixa', 6],
+	   ['Investimento', 'Renda Variável', 3],
+	   ['Investimento', 'Derivativo',2],
+	   ['Investimento', 'Fundo de Investimento',1],
+       [ 'Renda Fixa', 'Títulos Públicos', 5 ],
+       [ 'Renda Fixa', 'Títulos Privados', 5 ],
+       [ 'Renda Variável', 'Ação', 3 ],
+       [ 'Renda Variável', 'Aluguel de Ação', 3 ],
+       [ 'Renda Variável', 'Moedas', 4 ],
+       [ 'Derivativo', 'Contrato Futuro', 5 ],
+       [ 'Derivativo', 'Opções', 5 ],
+       [ 'Derivativo', 'Termo', 5],
+       [ 'Fundo de Investimento', 'Fundo Renda Fixa', 2 ],
+       [ 'Fundo de Investimento', 'Fundo Ação', 2],
+       [ 'Fundo de Investimento', 'Fundo Multimercado', 2 ],
+       [ 'Fundo de Investimento', 'Fundo Cotas', 1],
+	   [ 'Fundo de Investimento', 'Fundo Cambial', 2],
+	   [ 'Fundo de Investimento', 'Fundo Imobiliário', 2],
+	   [ 'Fundo de Investimento', 'Fundo Referenciado', 2],
+	   [ 'Fundo de Investimento', 'Fundo Dívida Externa', 2 ],
+	   [ 'Ação', 'PETR4', 2 ],
+	   [ 'Ação', 'PETR3', 2 ],
+	   [ 'Ação', 'VALE3', 2 ],
+	   [ 'Ação', 'ITUB4', 2 ],
+	   [ 'Ação', 'BBDC4', 2 ],
+	   [ 'Ação', 'MGLU3', 2 ],
+	   [ 'Aluguel de Ação', 'PETR4', 2 ],
+	   [ 'Aluguel de Ação', 'PETR3', 2 ],
+	   [ 'Aluguel de Ação', 'VALE3', 2 ],
+	   [ 'Aluguel de Ação', 'ITUB4', 2 ],
+	   [ 'Aluguel de Ação', 'BBDC4', 2 ],
+	   [ 'Aluguel de Ação', 'MGLU3', 2 ],
+	   [ 'Moedas', 'USD', 2],
+	   [ 'Moedas', 'CAD', 2],
+	   [ 'Moedas', 'JPY', 2],
+	   [ 'Moedas', 'CHF', 2],
+	   [ 'Moedas', 'EUR', 2],
+	   [ 'Moedas', 'GBP', 2],
+	   [ 'Moedas', 'AUD', 2],
+	   [ 'Moedas', 'RUB', 2],
+	   [ 'Moedas', 'CNY', 2],
+	   [ 'Moedas', 'ARS', 2],
+	   [ 'Moedas', 'NZD', 2],
+	   [ 'Moedas', 'SEK', 2],
+       [ 'Fundo Cotas', 'Fundo Renda Fixa', 2 ],
+	   [ 'Fundo Cotas', 'Fundo Ação', 2 ],
+	   [ 'Fundo Cotas', 'Fundo Multimercado', 2],
+	   [ 'Fundo Cotas', 'Fundo Cambial', 2 ],
+	   [ 'Fundo Cotas', 'Fundo Imobiliário', 2 ],
+	   [ 'Fundo Cotas', 'Fundo Referenciado', 2],
+	   [ 'Fundo Cotas', 'Fundo Dívida Externa', 2 ],	   
+       [ 'Títulos Públicos', 'LFT', 3 ],
+	   [ 'Títulos Públicos', 'LTN', 3 ],
+       [ 'Títulos Públicos', 'NTN', 3 ],
+       [ 'Títulos Privados', 'CDB', 3 ],
+       [ 'Títulos Privados', 'CDI', 3 ],
+	   [ 'Títulos Privados', 'CRA', 3 ],
+	   [ 'Títulos Privados', 'CRI', 3 ],
+	   [ 'Títulos Privados', 'Dêbentures', 3 ],
+	   [ 'Títulos Privados', 'LCA', 3 ],
+	   [ 'Títulos Privados', 'LCI', 3 ],
+	   [ 'Títulos Privados', 'Poupança', 1 ],
+       [ 'Opções', 'PETR4', 3 ],
+	   [ 'Opções', 'PETR3', 3 ],
+	   [ 'Opções', 'VALE3', 3 ],
+	   [ 'Opções', 'ITUB4', 3 ],
+       [ 'Opções', 'DI', 3 ],
+	   [ 'Opções', 'Ibovespa', 3 ],
+	   [ 'Opções', 'USD', 3 ],
+	   [ 'Opções', 'EUR', 3 ],
+	   [ 'Opções', 'JPY', 3 ],
+	   [ 'Opções', 'CAD', 3 ],
+	   [ 'Opções', 'Café', 3 ],
+	   [ 'Opções', 'Soja', 3 ],
+	   [ 'Opções', 'Boi Gordo', 3 ],
+	   [ 'Opções', 'Milho', 3 ],
+	   [ 'Fundo Renda Fixa', 'LFT', 2 ],
+	   [ 'Fundo Renda Fixa', 'LTN', 2 ],
+       [ 'Fundo Renda Fixa', 'NTN',2 ],
+       [ 'Fundo Renda Fixa', 'CDB', 2 ],
+       [ 'Fundo Renda Fixa', 'CDI', 2 ],
+	   [ 'Fundo Renda Fixa', 'CRA', 2 ],
+	   [ 'Fundo Renda Fixa', 'CRI', 2 ],
+	   [ 'Fundo Renda Fixa', 'Dêbentures', 3 ],
+	   [ 'Fundo Renda Fixa', 'LCA', 2 ],
+	   [ 'Fundo Renda Fixa', 'LCI', 2 ],
+       [ 'Fundo Ação', 'Ações', 1 ],
+	   [ 'Fundo Ação', 'Aluguel de Ações', 1 ],
+       [ 'Fundo Multimercado', 'Ações', 1 ],
+	   [ 'Fundo Multimercado', 'Aluguel de Ações', 1 ],
+	   [ 'Fundo Multimercado', 'Moedas', 1 ],
+	   [ 'Fundo Cambial', 'Moedas', 1],
+	   [ 'Fundo Imobiliário', 'CRI', 1 ],
+	   [ 'Fundo Imobiliário', 'LCI', 1 ],
+	   [ 'Fundo Dívida Externa', 'US Tresury', 3 ],
+	   [ 'Contrato Futuro','Boi Gordo', 4 ],
+	   [ 'Contrato Futuro','Soja', 4],
+	   [ 'Contrato Futuro','Milho', 3 ],
+	   [ 'Contrato Futuro','Açucar', 3 ],
+	   [ 'Contrato Futuro','Etanol', 3 ],
+	   [ 'Contrato Futuro','USD', 3 ],
+	   [ 'Contrato Futuro','ARS', 3 ],
+	   [ 'Contrato Futuro','NZD', 3 ],
+	   [ 'Contrato Futuro','DI', 3 ],
+	   [ 'Contrato Futuro','IPCA', 3 ],
+	   [ 'Contrato Futuro','Café', 3],
+	   [ 'Contrato Futuro','CLP', 3 ],
+	   [ 'Contrato Futuro','SEK', 3 ],
+	   [ 'Contrato Futuro','TRY', 3 ],
+	   [ 'Fundo Referenciado', 'DI', 1 ],
+	   [ 'Fundo Referenciado', 'Ibovespa', 1 ],
+	   [ 'Fundo Referenciado', 'IPCA', 1 ],
+	   
+	   
+    ]);
+    // Set chart options
+	
+	var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
+                  '#cab2d6', '#ffff99', '#1f78b4', '#33a02c'];
+
+    var options = {
+      height: 600,
+	  width: 1400,
+      sankey: {
+        node: {
+          colors: colors
+        },
+        link: {
+          colorMode: 'gradient',
+          colors: colors
+        }
+      }
+    };
+
+    // Instantiate and draw our chart, passing in some options.
+    var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
+    chart.draw(data, options);
+   }
+</script>
+</body>
+</html>

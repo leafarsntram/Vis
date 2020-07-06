@@ -1,0 +1,670 @@
+[ {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Mercado de Investimentos Brasileiro"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#AAPL34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ABTT34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ARS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#AUD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#AZUL4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Administrador",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Variável"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Variável"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Açúcar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#B3SA3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BBAS3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BBDC3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BBDC4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BBSE3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BEEF3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BPAC11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BRDT3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BRML3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BTOW3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Boi_Gordo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CAD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CDB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CHF",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CLP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CNY",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#COGN3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CPFE3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CRA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CRFB3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CRI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CSAN3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CVCB3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CYRE3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Café",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Codígo_vencimento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Termo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Cota",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Cotação",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Custodiante",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Variável"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Código_Fundo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Código_opção",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#DI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CDB", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Referenciado", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Data",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Data_Início",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Termo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Debêntures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Investimento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ECOR3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#EGIE3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ELET3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ELET6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#EMBR3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ENBR3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#EQTL3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#EUR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Emissor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Etanol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Etanol_Hidratado",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#FBOK34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#FLRY3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#FOXC34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Forma-se_por",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Variável"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Formado_Por",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Ação"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Cambial"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Dívida_Externa"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Imobiliário"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Referenciado"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundos_Renda_Fixa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Investimento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Ação",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Cambial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Cota",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Dívida_Externa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Imobiliário",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Referenciado",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundos_Renda_Fixa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#GBP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#GNDI3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#GOLL4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#HAPV3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#HGTX3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#HYPE3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#IGTA3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#IPCA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CDB", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Referenciado" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ITSA4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ITUB4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Indexador",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Fixa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Investimento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#JBSS3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#JPY",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#KLBN11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LCA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LCI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LFT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Titúlo_Público"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LTN",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Titúlo_Público"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MGLU3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MMMC34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MRFG3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MRVE3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MULT3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Milho",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#NTCO3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#NTN",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Titúlo_Público"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#NZD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#PCAR3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#PETR3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#PETR4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Poupança",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Preço_Exercício",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Pré_Fixado",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#QUAL3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#RENT3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#RUB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Fixa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Investimento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Variável",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Investimento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SBSP3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SEK",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SELIC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CDB", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Referenciado" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SULA11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SUZB3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Soja",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#TIMP3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#TOTS3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#TRY",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Termo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Tipo_Opção",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Titúlo_Público",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Fixa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Fixa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#USD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#USIM5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#US_Treasury_Note",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#VALE3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#VIVT4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#VVAR3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Vencimento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Termo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#WEGE3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#YDUQ3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#é_composto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Ação"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#é_formado_por",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CDB"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CRI"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Debêntures"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LCA"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LCI"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Poupança"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#é_tipo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Investimento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Fixa"
+  }, {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Variável"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topDataProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"
+  } ]
+} ]

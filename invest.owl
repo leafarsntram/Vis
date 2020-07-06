@@ -1,0 +1,1233 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mercado de Investimentos Brasileiro</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contem">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Termo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Forma-se_por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Forma-se_por">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Variável"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Formado_Por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Formado_Por">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Ação"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Cambial"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Dívida_Externa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Imobiliário"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Referenciado"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundos_Renda_Fixa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#é_composto -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#é_composto">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Ação"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#é_formado_por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#é_formado_por">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CDB"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CRI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Debêntures"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LCA"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LCI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Poupança"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#é_tipo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#é_tipo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Investimento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Fixa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Variável"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Administrador -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Administrador">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Codígo_vencimento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Codígo_vencimento">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Cota -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Cota">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Cotação -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Cotação">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Custodiante -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Custodiante">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Código_Fundo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Código_Fundo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Código_opção -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Código_opção">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Data -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Data">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Data_Início -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Data_Início">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Termo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Emissor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Emissor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Indexador -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Indexador">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Fixa"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Preço_Exercício -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Preço_Exercício">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Tipo_Opção -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Tipo_Opção">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Vencimento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Vencimento">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Termo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Variável"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Variável"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CDB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CDB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CRA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CRA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CRI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CRI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Variável"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Debêntures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Debêntures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Investimento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Investimento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Ação -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Ação">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Cambial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Cambial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Cota -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Cota">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Dívida_Externa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Dívida_Externa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Imobiliário -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Imobiliário">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Referenciado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Referenciado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundos_Renda_Fixa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundos_Renda_Fixa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Investimento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Investimento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LCA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LCA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LCI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LCI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LFT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LFT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Titúlo_Público"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LTN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#LTN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Titúlo_Público"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#NTN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#NTN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Titúlo_Público"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Poupança -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Poupança">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Fixa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Fixa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Investimento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Variável -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Variável">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Investimento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Termo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Termo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Derivativo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Titúlo_Público -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Titúlo_Público">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Fixa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Títulos_Privado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Renda_Fixa"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#AAPL34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#AAPL34"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ABTT34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ABTT34"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ARS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ARS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#AUD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#AUD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#AZUL4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#AZUL4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Açúcar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Açúcar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#B3SA3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#B3SA3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BBAS3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BBAS3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BBDC3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BBDC3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BBDC4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BBDC4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BBSE3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BBSE3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BEEF3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BEEF3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BPAC11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BPAC11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BRDT3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BRDT3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BRML3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BRML3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BTOW3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#BTOW3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Boi_Gordo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Boi_Gordo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CAD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CAD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CHF -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CHF">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CLP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CLP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CNY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CNY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#COGN3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#COGN3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CPFE3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CPFE3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CRFB3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CRFB3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CSAN3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CSAN3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CVCB3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CVCB3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CYRE3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CYRE3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Café -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Café">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#DI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#DI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CDB"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Referenciado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ECOR3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ECOR3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#EGIE3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#EGIE3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ELET3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ELET3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ELET6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ELET6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#EMBR3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#EMBR3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ENBR3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ENBR3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#EQTL3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#EQTL3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#EUR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#EUR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Etanol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Etanol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Etanol_Hidratado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Etanol_Hidratado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#FBOK34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#FBOK34"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#FLRY3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#FLRY3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#FOXC34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#FOXC34"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#GBP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#GBP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#GNDI3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#GNDI3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#GOLL4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#GOLL4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#HAPV3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#HAPV3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#HGTX3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#HGTX3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#HYPE3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#HYPE3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#IGTA3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#IGTA3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#IPCA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#IPCA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CDB"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Referenciado"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ITSA4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ITSA4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ITUB4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#ITUB4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#JBSS3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#JBSS3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#JPY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#JPY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#KLBN11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#KLBN11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MGLU3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MGLU3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MMMC34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MMMC34"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MRFG3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MRFG3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MRVE3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MRVE3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MULT3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#MULT3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Milho -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Milho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#NTCO3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#NTCO3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#NZD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#NZD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#PCAR3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#PCAR3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#PETR3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#PETR3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#PETR4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#PETR4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Pré_Fixado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Pré_Fixado"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#QUAL3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#QUAL3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#RENT3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#RENT3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#RUB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#RUB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SBSP3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SBSP3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SEK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SEK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SELIC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SELIC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#CDB"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Fundo_Referenciado"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SULA11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SULA11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SUZB3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#SUZB3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Soja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Soja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#TIMP3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#TIMP3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#TOTS3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#TOTS3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#TRY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#TRY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#USD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#USD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Câmbio"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Opção"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#USIM5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#USIM5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#US_Treasury_Note -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#US_Treasury_Note">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Contrato_Futuro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#VALE3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#VALE3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#VIVT4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#VIVT4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#VVAR3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#VVAR3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#WEGE3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#WEGE3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Alguel_Ação"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#YDUQ3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#YDUQ3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sophia/ontologies/2020/6/untitled-ontology-5#Ação"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
