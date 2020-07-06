@@ -2,21 +2,11 @@
 {"name":"Renda Fixa","n":5,"grp":1,"id":"Renda Fixa"},
 {"name":"Renda Variável","n":5,"grp":1,"id":"Renda Variável"},
 {"name":"Derivativo","n":32,"grp":1,"id":"Derivativo"},
-{"name":"Fundo","n":4,"grp":1,"id":"Fundo"},
-{"name":"Título Público","n":20,"grp":1,"id":"Título Público"},
-{"name":"Título Privado","n":4,"grp":1,"id":"Título Privado"},
-{"name":"Ação","n":11,"grp":1,"id":"Ação"},
-{"name":"Aluguel_Ação","n":4,"grp":1,"id":"Aluguel_Ação"},
-{"name":"Câmbio","n":4,"grp":1,"id":"Câmbio"},
-{"name":"Opção","n":5,"grp":1,"id":"Opção"},
-{"name":"Contrato Futuro","n":5,"grp":1,"id":"Contrato Futuro"},
-{"name":"Termo","n":5,"grp":1,"id":"Termo"},
-{"name":"Fundo Ação","n":5,"grp":1,"id":"Fundo Ação"},
-{"name":"Fundo Cota","n":4,"grp":1,"id":"Fundo Cota"},
-{"name":"Fundo Cambial","n":5,"grp":1,"id":"Cambial"},
-{"name":"Fundo Renda Fixa","n":5,"grp":1,"id":"Fundo Renda Fixa"},
-{"name":"Fundo Multimercado","n":5,"grp":1,"id":"Fundo Multimercado"},
-{"name":"Fundo Imobiliário","n":24,"grp":1,"id":"Fundo Imobiliário"},
-{"name":"Fundo Referenciado","n":5,"grp":1,"id":"Fundo Referenciado"},
-{"name":"Fundo Dívida Externa","n":3,"grp":1,"id":"Fundo Dívida Externa"}
+{"name":"Fundo","n":4,"grp":1,"id":"Fundo"}
+],
+"links":[
+{"source":"Investimento","target":"Renda Fixa","value":3},
+{"source":"Investimento","target":"Renda Variável","value":3},
+{"source":"Investimento","target":"Derivativo","value":3},
+{"source":"Investimento","target":"Fundos","value":3}
 ],"attributes":{}}
